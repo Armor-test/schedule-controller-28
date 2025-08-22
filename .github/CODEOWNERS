@@ -1,0 +1,36 @@
+# CODEOWNERS file for schedule-controller-28
+# Global owners - will be requested for all PRs
+* @Armor-test/team-ux @Armor-test/team-research @Armor-test/team-qa
+
+# Directory ownership
+/vendor/ @Armor-test/unit-ux @Armor-test/team-core @Armor-test/unit-search
+/spec/ @Armor-test/dept-messaging @Armor-test/team-qa
+/helpers/ @Armor-test/unit-storage @Armor-test/grp-apps @Armor-test/dept-qa
+/styles/ @Armor-test/grp-reporting @Armor-test/dept-frontend
+/third_party/ @Armor-test/team-metrics @Armor-test/squad-notifications
+/docs/ @Armor-test/unit-mobile @Armor-test/dept-search @Armor-test/squad-storage
+/src/ @Armor-test/team-core @Armor-test/team-content @Armor-test/squad-notifications
+/data/ @Armor-test/unit-ux @Armor-test/dept-payments
+/tools/ @Armor-test/unit-mobile @Armor-test/grp-apps @Armor-test/grp-notifications
+/api/ @Armor-test/dept-search @Armor-test/team-qa
+/scripts/ @Armor-test/team-core @Armor-test/dept-devops
+/models/ @Armor-test/grp-reliability @Armor-test/squad-storage @Armor-test/dept-search
+
+# File type ownership
+*.tsx @Armor-test/team-logging @Armor-test/dept-reliability
+*.toml @Armor-test/team-content @Armor-test/dept-reliability
+*.rs @Armor-test/unit-logging @Armor-test/dept-database @Armor-test/team-architecture
+*.cpp @Armor-test/dept-frontend @Armor-test/grp-apps
+*.sql @Armor-test/team-logging @Armor-test/dept-frontend
+*.h @Armor-test/team-logging @Armor-test/dept-devops @Armor-test/team-architecture
+*.graphql @Armor-test/unit-mobile @Armor-test/grp-ui
+*.ini @Armor-test/grp-product @Armor-test/dept-data
+*.yml @Armor-test/grp-release @Armor-test/dept-ui @Armor-test/grp-reliability
+*.cs @Armor-test/team-logging @Armor-test/dept-data
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
